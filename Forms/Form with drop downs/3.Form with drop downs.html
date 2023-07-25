@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <body>
+
+    <div class="container-fluid">
+            <div class="row">
+                <div class="offset-md-3 col-md-6">
+                    <marquee>
+                        <h1 class="text-center mt-2"><b> Form </b></h1>
+                    </marquee>
+                    <form method="POST" class="m-1">
+        
+
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label>First Name</label>
+                                <input type="text" class="form-control" name="fname">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>Last Name</label>
+                                <input type="text" class="form-control" name="lname">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>SurName</label>
+                                <input type="text" class="form-control" name="sname">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label>Branch</label>
+                                <input type="text" class="form-control" name="Branch">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>Passout Year</label>
+                                <input type="number" class="form-control" name="year">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Id</label>
+                            <input type="email" class="form-control" name="Email">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label>Adhar Number </label>
+                                <input type="text" class="form-control" name="a">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>Contact Number</label>
+                                <input type="text" class="form-control" name="Contact">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>Gender</label>
+                                  <select class="form-control"  name="Gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="Others">Others</option>
+                                      </select>
+
+                            </div>
+                        </div>
+                      <div class="form-row">
+                        <div  class="form-group col-md-6">
+
+                          <div class="form-group">
+                            <label>Select a Course</label>
+                            <select class="form-control" name="Course">
+                              <option value="">Select an option</option>
+                              <optgroup label="Front-End">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                                  <option value="bootstrap">Bootstrap</option>
+                                    <option value="React. js">React. js</option>
+                                      <option value="Flutter">Flutter</option>
+                                        <option value="Angular. js">Angular. js</option>
+
+
+
+                              </optgroup>
+                              <optgroup label="Back-End">
+                                <option value="JAVA">JAVA</option>
+                                <option value="Python">Python</option>
+                                <option value="C++">C++</option>
+                                  <option value="php">PHP</option>
+                                    <option value="Scala">Scala</option>
+                                      <option value="kotlin">kotlin</option>
+                              </optgroup>
+
+                            <optgroup label="Database-End">
+                              <option value="Oracle">Oracle</option>
+                              <option value="Mysql">Mysql</option>
+
+                              <option value="SQL Server">SQL Server</option>
+                                <option value="SQL Server">MongoDB</option>
+                                  <option value="SQLITE">SQLITE</option>
+                                    <option value="PostgreSql">PostgreSql</option>
+                            </optgroup>
+                              </select>
+                          </div>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label>Select a Course Mode</label>
+                              <select class="form-control" name="mode">
+                                <option value="Ofline">Ofline</option>
+
+                                  <option value="Online">Online</option>
+
+
+
+
+
+
+
+
+                                </select>
+
+                            </div>
+                          </div>
+                          <div class="form-group">
+                              <label>Adders</label>
+                              <input type="text" class="form-control" name="Adders">
+                          </div>
+
+
+
+                        <center>
+
+                          <input type="submit" value="submit" class="btn btn-outline-success mr-5">
+                          <input type="reset" value="clear" class="btn btn-outline-danger">
+
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+  </body>
+</html>
